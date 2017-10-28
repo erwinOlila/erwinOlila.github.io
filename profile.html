@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Fire</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <link href="profile.css" rel="stylesheet">
+  </head>
+
+  <body onload="onLoad()">
+    <div id="whole" class="prof-container">
+      <div class="information">
+        <img id="photo"></img>
+        <p id="name"><span class="att">name: </span></p>
+        <p id="email"><span class="att">email: </span></p>
+        <p id="age" class="secondary-info"><span class="att">age: </span></p>
+        <p id="address" class="secondary-info"><span class="att">address: </span></p>
+        <p id="profession" class="secondary-info"><span class="att">profession: </span></p>
+        <div onClick="showEdit(true)">Edit info <i class="glyphicon glyphicon-edit" onmouseover="colorize(this)" onmouseout="decolorize(this)" ></i></div>
+        <button type="button" onClick="logOut()">Sign-out</button>
+      </div>
+      <div class="todo-app">
+        <form id="toDo">
+          <input id="task" type="text" name="task">
+          <span id="icon" onmouseover="colorize(this)" onmouseout="decolorize(this)" class="glyphicon glyphicon-pencil" href="#"></span>
+        </form>
+        <div id="list"></div>
+        <p id="clock"></p>
+      </div>
+    </div>
+    <div id="edit-info" class="modal">
+      <form id="edit-form">
+        <p>
+          <label for="age">Age</label>
+          <input id="age-info" type="text" required>
+        </p>
+        <p>
+          <label for="profession">Profession</label>
+          <input id="profession-info" type="text" required>
+        </p>
+        <p class="full">
+          <label for="address">Address</label>
+          <input id="address-info" type="text" required>
+        </p>
+        <button type="submit" id="button-edit" class="full submit" type="button">Submit</button>
+        <button type="button" id="button-discard" onClick="showEdit(false)" class="full discard">Discard</button>
+      </form>
+    </div>
+
+
+
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-database.js"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="profile.js"></script>
+  </body>
+</html>

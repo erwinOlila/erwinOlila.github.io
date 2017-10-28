@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/tasks.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.whole {
+  display: grid;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  grid-template-columns: 1fr;
+  border-radius: 15px;
+}
+
+.whole div {
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Amiri', serif;
+}
+
+.whole .fa-book {
+  margin-left: 20px;
+}
+
+.whole .fa-facebook-square, .whole .fa-google-plus-square {
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+}
+
+button {
+  height: 60px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.myForm #facebook {
+  background-color: rgba(0,0,255,0.4);
+}
+
+.myForm #google {
+  background-color: rgba(255,0,0,0.4);
+}
+
+button .continue {
+  font-size: 120%;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.myForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  grid-gap: 20px;
+}
+
+.myForm label {
+  display: block;
+}
+
+.myForm button {
+  grid-column: 1/3;
+}

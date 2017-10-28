@@ -1,18 +1,36 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-  <base href="/">
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Fire</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Kameron" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
-<link href="styles.176e4d821cc3a21887b2.bundle.css" rel="stylesheet"/></head>
-<body>
-  <app-root></app-root>
-<script type="text/javascript" src="inline.69076bc3f083e2be69c3.bundle.js"></script><script type="text/javascript" src="polyfills.6f9a6b71e96c03e848dc.bundle.js"></script><script type="text/javascript" src="vendor.2df0e96fc4240abc9253.bundle.js"></script><script type="text/javascript" src="main.eb2779fbe0ec93239a4c.bundle.js"></script></body>
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="whole">
+      <div><span class="title">Your To-Do List App</span><span class="fa fa-book fa-1x"></span></div>
+      <form class="myForm">
+        <button id="google" type="button" onClick="onSubmit(this)"><i class="fa fa-google-plus-square fa-2x"></i><span class="continue"> Continue with Google</span></button>
+      </form>
+    </div>
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-auth.js"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="app.js"></script>
+  </body>
 </html>
