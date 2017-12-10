@@ -1,36 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learn Fire</title>
-
-    <!-- Bootstrap core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <title>Snake</title>
   </head>
-
   <body>
-
-    <div class="whole">
-      <div><span class="title">Your To-Do List App</span><span class="fa fa-book fa-1x"></span></div>
-      <form class="myForm">
-        <button id="google" type="button" onClick="onSubmit(this)"><i class="fa fa-google-plus-square fa-2x"></i><span class="continue"> Continue with Google</span></button>
-      </form>
-    </div>
-
-    <!-- <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script> -->
-    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-auth.js"></script>
-
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script src="app.js"></script>
+    <canvas id="canvas" width="560" height="560"></canvas>
+    <div><span id="score"></span></div>
+    <script src="dist/bundle.js"></script>
   </body>
+  <audio class="audio" src="sounds/eat.wav"></audio>
 </html>
