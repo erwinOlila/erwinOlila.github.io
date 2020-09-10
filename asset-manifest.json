@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/airwayze/static/css/main.76f4f183.chunk.css",
-    "main.js": "/airwayze/static/js/main.6bde7f3a.chunk.js",
-    "main.js.map": "/airwayze/static/js/main.6bde7f3a.chunk.js.map",
-    "runtime-main.js": "/airwayze/static/js/runtime-main.576ae419.js",
-    "runtime-main.js.map": "/airwayze/static/js/runtime-main.576ae419.js.map",
-    "static/js/2.3ceb0add.chunk.js": "/airwayze/static/js/2.3ceb0add.chunk.js",
-    "static/js/2.3ceb0add.chunk.js.map": "/airwayze/static/js/2.3ceb0add.chunk.js.map",
-    "index.html": "/airwayze/index.html",
-    "precache-manifest.dee7bf30c6f2c7526b09c0d511530ab1.js": "/airwayze/precache-manifest.dee7bf30c6f2c7526b09c0d511530ab1.js",
-    "service-worker.js": "/airwayze/service-worker.js",
-    "static/css/main.76f4f183.chunk.css.map": "/airwayze/static/css/main.76f4f183.chunk.css.map",
-    "static/js/2.3ceb0add.chunk.js.LICENSE.txt": "/airwayze/static/js/2.3ceb0add.chunk.js.LICENSE.txt",
-    "static/media/breezometer.png": "/airwayze/static/media/breezometer.07505f3f.png",
-    "static/media/App.css": "/airwayze/static/media/city2.74c9657e.jpg",
-    "static/media/problem3.jpg": "/airwayze/static/media/problem3.84c3c0b8.jpg"
+    "main.css": "/static/css/main.e59fb4a2.chunk.css",
+    "main.js": "/static/js/main.bd1f3882.chunk.js",
+    "main.js.map": "/static/js/main.bd1f3882.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.91588154.js",
+    "runtime-main.js.map": "/static/js/runtime-main.91588154.js.map",
+    "static/js/2.3ceb0add.chunk.js": "/static/js/2.3ceb0add.chunk.js",
+    "static/js/2.3ceb0add.chunk.js.map": "/static/js/2.3ceb0add.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3a004c32132820373b500290f5a3eef2.js": "/precache-manifest.3a004c32132820373b500290f5a3eef2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e59fb4a2.chunk.css.map": "/static/css/main.e59fb4a2.chunk.css.map",
+    "static/js/2.3ceb0add.chunk.js.LICENSE.txt": "/static/js/2.3ceb0add.chunk.js.LICENSE.txt",
+    "static/media/breezometer.png": "/static/media/breezometer.07505f3f.png",
+    "static/media/App.css": "/static/media/city2.74c9657e.jpg",
+    "static/media/problem3.jpg": "/static/media/problem3.84c3c0b8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.576ae419.js",
+    "static/js/runtime-main.91588154.js",
     "static/js/2.3ceb0add.chunk.js",
-    "static/css/main.76f4f183.chunk.css",
-    "static/js/main.6bde7f3a.chunk.js"
+    "static/css/main.e59fb4a2.chunk.css",
+    "static/js/main.bd1f3882.chunk.js"
   ]
 }
